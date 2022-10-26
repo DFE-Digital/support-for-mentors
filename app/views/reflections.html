@@ -1,0 +1,123 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Blank page
+{% endblock %}
+
+{% block content %}
+
+<form class="form" action="/teacher" method="post">
+<div class="govuk-grid-row">
+  <br>
+
+  <div class="govuk-breadcrumbs ">
+    <ol class="govuk-breadcrumbs__list">
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="/home">Home</a>
+      </li>
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="/teacher-term">Mrs Bloggs</a>
+      </li>
+      <li class="govuk-breadcrumbs__list-item">
+        <a class="govuk-breadcrumbs__link" href="/teacher">First half term - How can you create an effective learning environment?</a>
+      </li>
+    </ol>
+  </div>
+
+  <div class="govuk-grid-row">
+    <br>
+
+    <div class="govuk-grid-column-two-thirds-from-desktop">
+
+  <br>
+  <p><strong>Topic 3: Establishing effective routine</strong></p>
+
+<p class="govuk-body govuk-!-font-size-36"><strong>Reflections</strong></p>
+
+<p>Your teacher has reflected on a time they had to intervene with a disruptive pupil. Add your comments below each of their reflections</p>
+<br>
+
+<h3 class="govuk-heading-m">Did you use the least invasive intervention possible?</h3>
+
+<div class="govuk-inset-text">
+I really tried to intervene in the least invasive way possible, but it's the first time I've used this technique.</div>
+
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Add comment
+
+    </span>
+  </summary>
+  <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
+</details>
+
+<h3 class="govuk-heading-m">How did this impact the pupil?</h3>
+
+<div class="govuk-inset-text">
+They became increasingly angry, at one stege even becoming physically threatening and swearing at me.
+</div>
+
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Add comment
+
+    </span>
+  </summary>
+  <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
+</details>
+
+<h3 class="govuk-heading-m">How did it impact the class and their learning?</h3>
+
+<div class="govuk-inset-text">
+I basically had to stop the lesson for around 10 minutes. The repercussions were that other pupil's became distracted and were not focused on their work.</div>
+
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Add comment
+
+    </span>
+  </summary>
+  <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
+</details>
+
+<h3 class="govuk-heading-m">What could you do differently next time?</h3>
+
+<div class="govuk-inset-text">
+I honestly don't know. It actually really shook me and I have been dreading a similar scenrio ever since. Have you got any tips?</div>
+
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Add comment
+    </span>
+  </summary>
+  <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
+</details>
+
+<h3 class="govuk-heading-m">Write down any additional  questions or discussion pointsthat you want to raise with your mentor</h3>
+
+<div class="govuk-inset-text">
+Like I said above, I'd be really grateful for your guidance on this issue</div>
+
+<details class="govuk-details" data-module="govuk-details">
+  <summary class="govuk-details__summary">
+    <span class="govuk-details__summary-text">
+      Add comment
+
+    </span>
+  </summary>
+  <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
+</details>
+
+</div>
+
+</div>
+
+<button class="govuk-button" data-module="govuk-button">Save comments</button> <p class="govuk-!-display-inline-block" style="padding: 5px 20px;"><a href="/teacher">Discard</a></p>
+
+</form>
+
+{% endblock %}

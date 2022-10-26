@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<a href="/index" class="govuk-back-link">Back</a>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <h1 class="govuk-heading-xl govuk-!-margin-bottom-9">Teach First's handbooks and training outlines</h1>
+
+    <h2 class="govuk-heading-l govuk-!-margin-bottom-3">Handbooks</h2>
+
+    <ul class="govuk-list govuk-list--spaced">
+      <li>
+        <a href="#">ECF Sequence (pdf)</a>
+      </li>
+      <li>
+        <a href="#">ECF SLT and Induction Lead Implementation Guidance (PDF)</a>
+      </li>
+    </ul>
+
+
+    <h2 class="govuk-heading-l govuk-!-margin-top-6 govuk-!-margin-bottom-3">Training outlines</h2>
+
+    <p class="govuk-!-margin-bottom-1">Here is a placholder of contextual blurb about training outlines. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+    <br>
+
+    {% include "includes/year2-it-tf.html" %}
+
+
+        <p>For more information on Year 2 training please refer to the <a href="#">ECF SLT and Induction Lead Implementation Guidance (PDF)</a>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+{% endblock %}

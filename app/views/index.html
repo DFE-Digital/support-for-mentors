@@ -1,0 +1,144 @@
+{% extends "layout-signin.html" %}
+
+{% block pageTitle %}
+GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <br>
+
+    <h1 class="govuk-heading-xl">
+      Support for early career teachers
+    </h1>
+
+    <h2 class="govuk-heading-l">
+      Mentor prototype
+    </h2>
+
+
+<div style="background-color:#F3F2F1; padding: 14px;">
+
+    <h3 class="govuk-heading-m">
+      <a href="/home">Iteration 1</a>
+    </h3>
+
+    <p>For this iteration we mainly tested if the half term and weekly structure, the task list as a way of tracking ECT and mentor progress and a few potential features that mentors might find useful in their meetings with the ECT.</p>
+
+
+<p><strong>Some design variations (pages not tested):</strong></p>
+
+    <ul class="govuk-list govuk-list--bullet">
+          <li>
+            <a href="/options">Variation - list</a>
+          </li>
+          <li>
+            <a href="/teacher-accordian">Variation - accordian</a>
+          </li>
+        </ul>
+        </div>
+
+  <hr class="govuk-section-break govuk-section-break--m">
+
+<div style="background-color:#F3F2F1; padding: 14px;">
+    <h3 class="govuk-heading-m">
+      <a href="/iteration-2/home">Iteration 2</a>
+    </h3>
+
+    <p>For this iteration, we separated out the ECT and metor progress and simplified progress tracking for mentors, including only materials for the self study and meetings).</p>
+
+        </div>
+
+        <hr class="govuk-section-break govuk-section-break--m">
+
+
+        <div style="background-color:#F3F2F1; padding: 14px;">
+    <h3 class="govuk-heading-m">
+      <a href="/it3/email">Iteration 3</a>
+    </h3>
+
+    <p>For this iteration, we tested the sign in process which also gave users the opportunity to add a username. We also tested a prompt to and guidance content piece and visualised different ideas for tracking, to help confirm what it was that mentors needed. </p>
+
+
+    </div>
+
+      <hr class="govuk-section-break govuk-section-break--m">
+
+      <div style="background-color:#F3F2F1; padding: 14px;">
+
+    <h3 class="govuk-heading-m">
+      <a href="/it4/email">Iteration 4</a>
+    </h3>
+
+    <p>For this iteration, we removed progress tracking and concentrated on getting the labelling for the different materials right. We also iterated the homepage, to see what information mentors might need on there and moved the username functionality to the homepage.</p>
+
+    </div>
+
+    <hr class="govuk-section-break govuk-section-break--m">
+
+    <div style="background-color:#F3F2F1; padding: 14px;">
+
+    <h3 class="govuk-heading-m">
+      Iteration 5
+    </h3>
+
+    <p>This was originally the MVS flow that we tested in the first round of Private Beta. Links/branch needs to be sorted</p>
+
+    </div>
+
+    <hr class="govuk-section-break govuk-section-break--m">
+
+    <div style="background-color:#F3F2F1; padding: 14px;">
+
+    <h3 class="govuk-heading-m">
+      <a href="/dev/email">Current and main flow for dev reference</a>
+    </h3>
+
+    <p>The main difference from the previous iteration, is that we are adding the speedbump after the landing page. This flow also includes error states.</p>
+
+    <p><a href="/dev/start">Start page (not included in main flow)</a></p>
+
+    <p><a href="/dev/cip-change/sign-in">School has changed CIP message</a></p>
+
+</div>
+<hr class="govuk-section-break govuk-section-break--m">
+    <h2 class="govuk-heading-l">
+      Induction Tutor pages
+    </h2>
+
+    <p>These pages were references for devs creating information pages on the Manage service. These pages include basic information and example lesson content to help induction tutors choose which CIP.</p>
+    <ul class="govuk-list">
+      <li>
+        <a href="/it-amb">Ambition</a>
+      </li>
+      <li>
+        <a href="/it-edt">EDT</a>
+      </li>
+      <li>
+        <a href="/it-tf">TF</a>
+      </li>
+      <li>
+        <a href="/it-ucl">UCL</a>
+      </li>
+    </ul>
+
+    <hr class="govuk-section-break govuk-section-break--m">
+        <h2 class="govuk-heading-l">
+          Giving other users access to the CIP
+        </h2>
+        <p><a href="/other-users/start">Iteration 1</a></p>
+
+        <p>If you'd like to see an example of when someone tries to sign in, but doesn't have an account input 'not-recognised@error.com' into the email field in on the sign in page.</p>
+        <p>If you'd like to see an example of when someone tries to create an account, but already has an one input 'recognised@error.com' into the email field in on the create account page. </p>
+
+
+
+
+  </div>
+</div>
+
+
+
+{% endblock %}

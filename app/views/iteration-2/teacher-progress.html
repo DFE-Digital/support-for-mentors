@@ -1,0 +1,70 @@
+{% extends "layout.html" %}
+{% from "govuk/components/breadcrumbs/macro.njk" import govukBreadcrumbs %}
+
+{% block pageTitle %}
+  Teacher progress
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-breadcrumbs ">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/iteration-2/home">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/iteration-2/teacher">Joe Bloggs</a>
+    </li>
+  </ol>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <br>
+
+    <h1 class="govuk-heading-xl">First half term - How can you create an effective learning environment?</h1>
+
+
+
+    <ul class="app-task-list__items" style="padding-left: 0">
+      <li class="app-task-list__item">
+        <span class="app-task-list__task-name">
+            Week 1 - Establishing effective routine
+        </span>
+        <strong class="govuk-tag govuk-tag--green" style="float: right">Complete</strong>
+      </li>
+      <li class="app-task-list__item">
+        <span>
+            Week 2 - Understanding teachers as role models
+        </span>
+        <strong class="govuk-tag govuk-tag--purple" style="float: right">Discussion needed</strong>
+      </li>
+      <li class="app-task-list__item">
+        <span class="app-task-list__task-name">
+            Week 3 - Creating a positive and respectful classroom environment
+        </span>
+        <strong class="govuk-tag govuk-tag--orange" style="float: right">Overdue</strong>
+      </li>
+      <li class="app-task-list__item">
+        <span class="app-task-list__task-name">
+            Week 4 - Managing behaviour
+        </span>
+        <strong class="govuk-tag govuk-tag--yellow" style="float: right">In progress</strong>
+      </li>
+      <li class="app-task-list__item">
+        <span class="app-task-list__task-name">
+            Week 5 - Developing pupils’ intrinsic motivation
+        </span>
+        <strong class="govuk-tag govuk-tag--grey" style="float: right">To do</strong>
+      </li>
+      <li class="app-task-list__item">
+        <span class="app-task-list__task-name">
+            Week 6 - Holding high expectations and maintaining engagement
+        </span>
+        <strong class="govuk-tag govuk-tag--grey" style="float: right">To do</strong>
+      </li>
+    </ul>
+  </div>
+</div>
+
+{% endblock %}
